@@ -1,0 +1,23 @@
+{
+  "name": "react-native-windows-cursor",
+  "version": "0.0.1",
+  "description": "A Cursor NativeModule for React Native Windows",
+  "main": "Cursor.windows.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bluejeans/react-native-windows-cursor.git"
+  },
+  "keywords": [
+    "Cursor",
+    "ReactNativeWindows"
+  ],
+  "author": "BlueJeans Network, Inc.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bluejeans/react-native-windows-cursor/issues"
+  },
+  "homepage": "https://github.com/bluejeans/react-native-windows-cursor#readme"
+}
