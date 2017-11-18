@@ -1,17 +1,11 @@
-﻿using System.Windows.Input;
-using ReactNative.Bridge;
+﻿using ReactNative.Bridge;
+using System.Windows.Input;
 
 namespace Cursor
 {
-    class CursorModule : NativeModuleBase
+    public class CursorModule : NativeModuleBase
     {
-        public override string Name
-        {
-            get
-            {
-                return "Cursor";
-            }
-        }
+        public override string Name => "Cursor";
 
         /// <summary>
         /// Set a mouse cursor
@@ -21,7 +15,8 @@ namespace Cursor
         [ReactMethod]
         public void setCursor(string cursor)
         {
-            var convertedCursor = Cursors.Arrow;
+            System.Windows.Input.Cursor convertedCursor;
+
             switch (cursor.ToLowerInvariant())
             {
                 case "appstarting":
@@ -109,7 +104,7 @@ namespace Cursor
                     convertedCursor = Cursors.Wait;
                     break;
                 default:
-                    convertedCursor = null;
+                    convertedCursor = Cursors.Arrow;
                     break;
             }
             DispatcherHelpers.RunOnDispatcher(() =>
