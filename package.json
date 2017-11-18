@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/bluejeans/react-native-windows-cursor/issues"
   },
-  "homepage": "https://github.com/bluejeans/react-native-windows-cursor#readme"
+  "homepage": "https://github.com/bluejeans/react-native-windows-cursor#readme",
+  "devDependencies": {
+    "@bluejeans/react-native-windows": "0.42.1-rc.18"
+  }
 }
