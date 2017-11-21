@@ -1,6 +1,6 @@
 {
   "name": "react-native-windows-cursor",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A Cursor NativeModule for React Native Windows",
   "main": "Cursor.windows.js",
   "scripts": {

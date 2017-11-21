@@ -11,13 +11,13 @@
  */
 'use strict';
 
-const Cursor = require('react-native').NativeModules.Cursor;
+const CursorModule = require('react-native').NativeModules.Cursor;
 
 var Cursor = {
   setCursor: function(
     cursor: string
   ): void {
-    Cursor.setCursor(cursor)
+    CursorModule.setCursor(cursor)
   }
 }
 
