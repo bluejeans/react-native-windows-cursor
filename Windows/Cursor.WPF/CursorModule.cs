@@ -115,7 +115,7 @@ namespace Cursor
                 }
                 else
                 {
-                    Mouse.OverrideCursor = new System.Windows.Input.Cursor(cursor, true);
+                    Mouse.OverrideCursor = new System.Windows.Input.Cursor(cursor);
                 }
             });
         }
