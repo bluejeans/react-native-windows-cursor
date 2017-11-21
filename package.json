@@ -1,6 +1,6 @@
 {
   "name": "react-native-windows-cursor",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A Cursor NativeModule for React Native Windows",
   "main": "Cursor.windows.js",
   "scripts": {
@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/bluejeans/react-native-windows-cursor#readme",
   "devDependencies": {
-    "@bluejeans/react-native-windows": "0.42.1-rc.18"
+    "@bluejeans/react-native-windows": "0.42.1-rc.19"
   }
 }
